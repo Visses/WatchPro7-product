@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+nav {
+    background-color: #24c0eb;
+    font-family: "Audiowide", sans-serif;
+    padding: 30px;
+    display: flex;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+/* SESSÃO 1 */
+#sessao1 {
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    background-color: #eee8e8;
+}
+
+#relogio1 {
+    display: flex;
+    margin: auto;
+}
+
+.titulo1 {
+    padding-top: 100px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: "Audiowide", sans-serif;
+}
+
+.descricao1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+/* SESSÃO 2 */
+
+#sessao2 {
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo2 {
+font-size: 30px;
+font-family: "Audiowide", sans-serif;
+}
+
+.descricao2 {
+margin-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.qualidades {
+display: flex;
+
+}
+
+#imgselos {
+    width: 170px;
+    height: 170px;
+    background-color:  #24c0eb;
+    border: solid 10px;
+    border-color: #eee8e8;
+    border-radius: 30%;
+}
+
+#imgselos:hover {
+    width: 170px;
+    height: 170px;
+    background-color:  #eee8e8;
+    border: solid 10px;
+    border-color: #24c0eb;
+    border-radius: 30%;
+}
+
+.selos{
+    padding: 80px;
+}
+
+#selotitulo {
+    font-size: 30px;
+    margin: 18px;
+    font-family: "Audiowide", sans-serif;
+}
+
+#selotitulo:hover {
+    font-size: 30px;
+    margin: 18px;
+    font-family: "Audiowide", sans-serif;
+    color: #24c0eb;
+    cursor: pointer;
+}
+
+#selodesc {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SESSÃO 3 */
+
+#sessao3 {
+    background-color: #24c0eb;
+    display: flex;
+}
+
+#relogio2 {
+    width: 700px;
+    height: 700px;
+}
+
+.sobre {
+    width: 800px;
+    height: 600px;
+    background-color: #eee8e8;
+    margin: auto;
+    border-radius: 50px;
+    border: solid 10px;
+    border-color: #cacaca;
+}
+
+#sobrerelogio {
+   font-size: 50px;
+   text-align: center;
+   margin-top: 15px;
+   font-family: "Audiowide", sans-serif;
+}
+
+#descrelogio {
+    font-size: 33px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button {
+    font-family: "Audiowide", sans-serif;
+    background-color: #cacaca;
+    border: solid 3px;
+    margin-top: 580px;
+    margin-right: 30px;
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+button:hover {
+    background-color: #24c0eb;
+}
